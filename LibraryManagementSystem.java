@@ -3,7 +3,7 @@ import java.util.*;
 // Main Library class
 public class LibraryManagementSystem {
 
-    // ====================== ABSTRACT CLASS ======================
+    // ====================== ABSTRACT CLASS: Book ======================
     public static abstract class Book {
         private final String id;
         private final String title;
@@ -90,7 +90,7 @@ public class LibraryManagementSystem {
         public boolean pay(double amount) {
             System.out.printf("Processing card payment of $%.2f using card ending with %s%n",
                     amount, cardNumber.substring(cardNumber.length() - 4));
-            System.out.println("Payment Successful ✅");
+            System.out.println("Payment Successfully Done ✅");
             return true;
         }
     }
