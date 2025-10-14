@@ -260,7 +260,7 @@ public class LibraryManagementSystem {
                 }
 
                 case 6 -> {
-                    System.out.println("👋 Exiting... Thank you for using the Library System!");
+                    System.out.println("Thank you for using the Library System!");
                     sc.close();
                     return;
                 }
