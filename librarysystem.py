@@ -131,7 +131,7 @@ class PaymentProcessor(ABC):
 
 class CreditCardPayment(PaymentProcessor):
     def process_payment(self, amount: float) -> bool:
-        print(f"💳 Processing credit card payment of ${amount:.2f}")
+        print(f"💳 Processing creditcard payment of ${amount:.2f}")
         return amount > 0
 
 class PayPalPayment(PaymentProcessor):
