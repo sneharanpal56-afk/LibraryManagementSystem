@@ -28,7 +28,7 @@ public class LibraryManagementSystem {
 
         @Override
         public String toString() {
-            return String.format("ID: %s | Title: %s | Author: %s | Borrowed: %s",
+        "echo ID: %s | Title: %s | Author: %s | Borrowed: %s"
                     id, title, author, borrowed ? "Yes" : "No");
         }
     }
@@ -270,3 +270,4 @@ public class LibraryManagementSystem {
         }
     }
 }
+
